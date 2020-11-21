@@ -245,7 +245,7 @@ app.post("/sort", function (req, res) {
     }
 })
 
-//stały nasłuch portu
+//stały nasłuch na port
 app.use(express.static('static'))
 app.listen(port, function () {
     console.log("Serwer został uruchomiony na porcie: " + port)
